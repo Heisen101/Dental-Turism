@@ -1,17 +1,30 @@
-body {
-    background-color: rgb(179, 145, 101);
-
+.form-details {
+    border: solid 2px;
+    border-radius: 50px;
 }
 
+.cash {
+    max-width: 220px;
+}
 
-#total-amount {
+.custom-textarea {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    resize: none;
+    padding: 0;
+
+    margin: 0;
+}
+
+.custom-textarea::placeholder {
+    color: #888;
+}
+
+.form-1 {
     font-weight: bold;
 }
 
-#total-section {
-    font-weight: bold;
-}
-
-img {
-    max-width: 120px;
+.container {
+    text-align: center;
 }

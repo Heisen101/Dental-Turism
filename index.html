@@ -18,189 +18,83 @@
 </head>
 
 <body>
+
     <div class="container">
-        <h2>Dental Services and Prices</h2>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Service</th>
-                    <th>Price (in euros)</th>
 
-                    <th>Total (in euros)</th>
-                    <th> Service icons</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="col-5">Professional cleaning (scaling, brushing, airflow)</td>
+        <h2 class="my-3">PIANO DI CURA NR. IT0421</h2>
 
-                    <td>50</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="50" class="service-checkbox"></td>
-                    <td><img src="./assets/Professional cleaning (scaling, brushing, airflow).png" alt="cleaning"></td>
-                </tr>
+        <div class="row">
+            <div class="col-md-6 form-details">
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-center"><img src="./assets/logod.png" class="cash" alt="">
+                    </div>
+                    <div class="col-8">
+                        <div class="row my-3">
+                            <div class="col-2">
+                                <p class="form-1">Indirizzo: </p>
+                            </div>
+                            <div class="col-8"> <textarea class="custom-textarea" placeholder="Indirizzo"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="form-1">Telefono: </p>
+                            </div>
+                            <div class="col-8"> <textarea class="custom-textarea" placeholder="Telefono"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <p class="form-1">Email: </p>
+                            </div>
+                            <div class="col-8"> <textarea class="custom-textarea" placeholder="Email"></textarea></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 form-details">
+                <div class="row">
+                    <div class="col-2"><img src="/" class="cash" alt=""> </div>
+                    <div class="col-10">
+                        <div class="row my-3">
+                            <div class="col-4">
+                                <p class="form-1">Nome: </p>
+                            </div>
+                            <div class="col-8"> <textarea class="custom-textarea" placeholder="Nome"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="form-1">Data di nascita </p>
+                            </div>
+                            <div class="col-8"> <textarea class="custom-textarea"
+                                    placeholder="Data di nascit"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <p class="form-1">Numero di telefono: </p>
+                            </div>
+                            <div class="col-8"> <textarea class="custom-textarea"
+                                    placeholder="Numero di telefono"></textarea></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
 
-                <tr>
-                    <td class="col-5">Professional teeth whitening with a photo lamp</td>
-
-                    <td>180</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="180" class="service-checkbox"></td>
-                    <td><img src="./assets/Professional teeth whitening with a photo lamp.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="col-5">At-home teeth whitening (2 custom trays and 4 gel syringes)</td>
-
-                    <td>140</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="140" class="service-checkbox"></td>
-                    <td><img src="./assets/At-home teeth whitening (2 custom trays and 4 gel syringes).png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="col-5">Filling</td>
-
-                    <td>65</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="65" class="service-checkbox"></td>
-                    <td><img src="./assets/Filling.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="col-5">Aesthetic restoration</td>
-
-                    <td>70</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="70" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="col-5">Endodontic treatment (including filling)</td>
-
-                    <td>130</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="130" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td class="col-5">Temporary crown (acrylic)</td>
-                    <td>40</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="40" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Metal-ceramic</td>
-                    <td>140</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="140" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Full zirconia</td>
-                    <td>190</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="190" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">E-max crown</td>
-                    <td>260</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="260" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Dental veneers (1 tooth)</td>
-                    <td>260</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="260" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Crown/bridge reduction (1 tooth)</td>
-                    <td>30</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="30" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Denture rebase</td>
-                    <td>40</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="40" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Temporary crown on an implant</td>
-                    <td>0</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="0" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Metal-ceramic crown on an implant</td>
-                    <td>180</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="180" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Zirconia crown on an implant</td>
-                    <td>200</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="200" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Extraction</td>
-                    <td>40</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="40" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Atypical extraction</td>
-                    <td>60</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="60" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Gingivectomy (1 tooth)</td>
-                    <td>50</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="50" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Crown lengthening (1 tooth)</td>
-                    <td>60</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="60" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Frenuloplasty</td>
-                    <td>90</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="90" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-                <tr>
-                    <td class="col-5">Sinus lifting</td>
-                    <td>360</td>
-                    <td><input type="checkbox" name="selectedServices[]" value="360" class="service-checkbox"></td>
-                    <td><img src="./assets/Temporary crown.png" alt=""></td>
-
-                </tr>
-
-                <tr>
-                    <td id="total-section">Total service cost</td>
-
-                    <td></td>
-
-                    <td id="total-amount">0</td>
-                    <td><img src="./assets/cash.png" alt=""></td>
-                </tr>
-            </tbody>
-        </table>
-        <button type="button" class="btn btn-primary" id="calculate-total">Calculate Total</button>
-        <button type="button" class="btn btn-primary" id="create-pdf">Create PDF</button>
-
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+        </div>
     </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
