@@ -9,3 +9,7 @@ body {
 #total-section {
     font-weight: bold;
 }
+
+img {
+    max-width: 120px;
+}
