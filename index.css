@@ -25,6 +25,10 @@
     font-weight: bold;
 }
 
-.container {
+.container h2 {
     text-align: center;
+}
+
+.images {
+    max-width: 850px;
 }
