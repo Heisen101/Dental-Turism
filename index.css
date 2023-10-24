@@ -1,3 +1,11 @@
 body {
-    background-color: rgb(196, 136, 57);
+    background-color: rgb(179, 145, 101);
+}
+
+#total-amount {
+    font-weight: bold;
+}
+
+#total-section {
+    font-weight: bold;
 }
