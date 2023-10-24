@@ -32,3 +32,17 @@
 .images {
     max-width: 850px;
 }
+
+.arcata {
+    border: solid 2px;
+    border-radius: 50px;
+}
+
+.container h4 {
+    font-weight: bold;
+    text-align: center;
+    padding-right: 15px;
+    display: inline-flex;
+    padding-left: 15px;
+
+}
