@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
         integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
         crossorigin="anonymous"></script>
@@ -90,21 +91,149 @@
             <div class="col-md-6 my-2"> <img src="./assets/dinti.png" alt="dinti" class="img-fluid images"></div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 form-details ">
+
                 <div class="row justify-content-center">
                     <div class="col-6">
                         <h4 class="arcata">ARCATA SUPERIORE</h4>
                     </div>
                 </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Price(€)</th>
+                            <th>Checkbox</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Consulto Gratis</td>
+                            <td>0</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Professional cleaning (scaling, brushing, airflow)</td>
+                            <td>50</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>At-home teeth whitening (2 custom trays and 4 gel syringes)</td>
+                            <td>140</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Filling</td>
+                            <td>65</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Aesthetic restoration</td>
+                            <td>70</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Endodontic treatment (including filling)</td>
+                            <td>130</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Temporary crown (acrylic)</td>
+                            <td>40</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Crown/bridge reduction (1 tooth)</td>
+                            <td>30</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Denture rebase/td>
+                            <td>40</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td class="total1">Total</td>
+                            <td> <span class="total1" id="totalPrice">0</span> €</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
 
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 form-details ">
                 <div class="row justify-content-center">
                     <div class="col-6">
                         <h4 class="arcata">ARCATA INFERIORE</h4>
                     </div>
                 </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Price(€)</th>
+                            <th>Checkbox</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Consulto Gratis</td>
+                            <td>0</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Professional cleaning (scaling, brushing, airflow)</td>
+                            <td>50</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>At-home teeth whitening (2 custom trays and 4 gel syringes)</td>
+                            <td>140</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Filling</td>
+                            <td>65</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Aesthetic restoration</td>
+                            <td>70</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Endodontic treatment (including filling)</td>
+                            <td>130</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Temporary crown (acrylic)</td>
+                            <td>40</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Crown/bridge reduction (1 tooth)</td>
+                            <td>30</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Denture rebase/td>
+                            <td>40</td>
+                            <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td class="total1">Total</td>
+                            <td> <span class="total1" id="totalPrice">0</span> €</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-end">
+            <div class="col-2">
+                <button id="saveAsPdfButton" class="no-print btn  btn-secondary my-2">Save as PDF</button>
             </div>
         </div>
     </div>
